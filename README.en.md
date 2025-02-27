@@ -1,4 +1,4 @@
-[中文](./README.md) | [en](./README.en.md)
+[中文](./README.md) | [EN](./README.en.md)
 
 # 🍦 edge-tts-webui-multilanguage
 
