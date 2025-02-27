@@ -4,6 +4,9 @@
 
 **`edge-tts-webui-multilanguage`** is a web interface version of [edge-tts](https://github.com/rany2/edge-tts), developed using `gradio`. It is based on [edge-tts-webui](https://github.com/ycyy/edge-tts-webui), with modifications to add all the languages from [tts-samples](https://github.com/yaph/tts-samples) and import voice sample previews.
 
+本人菜鸟一枚，如有错误请大佬多多指点。
+
+I am a beginner, so if there are any mistakes, please kindly point them out.
 
 ![](Snipaste.png)
 
