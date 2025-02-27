@@ -11,7 +11,7 @@ I am a beginner, so if there are any mistakes, please kindly point them out.
 ![](Snipaste.png)
 
 
-## 普通安装
+## 普通安装/Standard Installation
 
 ### 安装/Install
 
