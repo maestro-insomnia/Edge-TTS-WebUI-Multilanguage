@@ -1,6 +1,8 @@
 [中文](./README.md) | [EN](./README.en.md)
 
-# 🍦 edge-tts-webui-multilanguage
+<div align="center">
+<h1>🍦 edge-tts-webui-multilanguage</h1>
+</div>
 
 **`edge-tts-webui-multilanguage`** is a web interface version of [edge-tts](https://github.com/rany2/edge-tts), developed using `Gradio`. It is based on [edge-tts-webui](https://github.com/ycyy/edge-tts-webui), with modifications to add pitch adjustment and include all the languages listed in [tts-samples](https://github.com/yaph/tts-samples), along with imported voice sample previews.
 
