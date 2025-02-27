@@ -11,30 +11,42 @@ I am a beginner, so if there are any mistakes, please kindly point them out.
 
 ## Standard Installation
 
-### Install
+- ### Install
 
+```
     pip install edge-tts
     pip install gradio
     pip install asyncio
+```
 
-### Run
+- ### Run
 
+```
     python tts-ui.py
+```
 
-### Access via browser at
+- ### Access via browser at
 
+```
     http://localhost:7860/
+```
 
 ## Install via Docker
 
-### Run the following command in the directory containing the Dockerfile
+- ### Run the following command in the directory containing the Dockerfile
 
+```
     docker build -t edgetts-webui-multilanguage .
+```
 
-### Run the container
+- ### Run the container
 
+```
     docker run -d -p 7860:7860 --name edgetts-webui-container edgetts-webui-multilanguage
+```
 
-### Access via browser at
+- ### Access via browser at
 
+```
     http://localhost:7860
+```
