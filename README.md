@@ -11,30 +11,42 @@
 
 ## 普通安装
 
-### 安装
+- ### 安装
 
+```
     pip install edge-tts
     pip install gradio
     pip install asyncio
-
-### 运行
-
+```
+- ### 运行
+ 
+```
     python tts-ui.py
+```
 
-### 浏览器访问
-
+- ### 浏览器访问
+  
+ ```
     http://localhost:7860/
+```
+
 
 ## Docker安装
 
-### 在Dockerfile所在目录创建镜像
+- ### 在Dockerfile所在目录创建镜像
 
+```
     docker build -t edgetts-webui-multilanguage .
+```
 
-### 运行容器
+- ### 运行容器
 
+```
     docker run -d -p 7860:7860 --name edgetts-webui-container edgetts-webui-multilanguage
+```
 
-### 浏览器访问
+- ### 浏览器访问
 
+```
     http://localhost:7860
+```
