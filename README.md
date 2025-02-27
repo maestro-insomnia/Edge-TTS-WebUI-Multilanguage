@@ -1,8 +1,8 @@
 # edge-tts-webui-multilanguage
 
-**`edge-tts-webui-multilanguage`** 是 [edge-tts](https://github.com/rany2/edge-tts)的web界面版，采用`Gradio`进行开发，在[edge-tts-webui](https://github.com/ycyy/edge-tts-webui)的基础上修改，新增了[tts-samples](https://github.com/yaph/tts-samples)中的所有语言并导入了音色试听样本。
+**`edge-tts-webui-multilanguage`** 是 [edge-tts](https://github.com/rany2/edge-tts)的web界面版，采用`Gradio`进行开发，在[edge-tts-webui](https://github.com/ycyy/edge-tts-webui)的基础上修改，新增音调调整，增加了[tts-samples](https://github.com/yaph/tts-samples)中所列的所有语言并导入了音色试听样本。
 
-**`edge-tts-webui-multilanguage`** is a web interface version of [edge-tts](https://github.com/rany2/edge-tts), developed using `gradio`. It is based on [edge-tts-webui](https://github.com/ycyy/edge-tts-webui), with modifications to add all the languages from [tts-samples](https://github.com/yaph/tts-samples) and import voice sample previews.
+**`edge-tts-webui-multilanguage`** is a web interface version of [edge-tts](https://github.com/rany2/edge-tts), developed using `gradio`. It is based on [edge-tts-webui](https://github.com/ycyy/edge-tts-webui), with modifications to add pitch adjustment and include all the languages listed in [tts-samples](https://github.com/yaph/tts-samples), along with imported voice sample previews.
 
 本人菜鸟一枚，如有错误请大佬多多指点。
 
