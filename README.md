@@ -7,17 +7,19 @@
 
 ![](Snipaste.png)
 
-## 安装/Installation
+## 普通安装
+
+### 安装/Installation
 
     pip install edge-tts
     pip install gradio
     pip install asyncio
 
-## 运行/Run
+### 运行/Run
 
     python tts-ui.py
 
-## 使用/Usage
+### 使用/Usage
 
 浏览器访问/Access via browser at:
 ```
