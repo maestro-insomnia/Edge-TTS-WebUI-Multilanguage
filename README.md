@@ -31,7 +31,7 @@ I am a beginner, so if there are any mistakes, please kindly point them out.
 
 ### 在Dockerfile所在目录创建镜像/Run the following command in the directory containing the Dockerfile
 
-    docker build -t edgetts-webui-multilanguage
+    docker build -t edgetts-webui-multilanguage .
 
 ### 运行容器/Run the container
 
