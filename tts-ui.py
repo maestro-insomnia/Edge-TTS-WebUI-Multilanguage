@@ -2637,11 +2637,11 @@ with gr.Blocks(css="style.css", title="MS Edge TTS", theme=soft_theme) as demo:
                 name.change(update_code, inputs=[language, country, gender, category, name], outputs=code).then(changeVoice, inputs=[language, code], outputs=example)
 
             with gr.Row():
-                rate = gr.Slider(-100, 100, step=1, value=0, label="语速 (Rate)", info="加快或减慢语速 (Increse or decrease rate)", interactive=True)
+                rate = gr.Slider(-100, 100, step=1, value=0, label="语速 (Rate)", info="加快或减慢语速 (Increase or decrease rate)", interactive=True)
             with gr.Row():
-                volume = gr.Slider(-100, 100, step=1, value=0, label="音量 (Volume)", info="增大或减小音量 (Increse or decrease volume)", interactive=True)
+                volume = gr.Slider(-100, 100, step=1, value=0, label="音量 (Volume)", info="增大或减小音量 (Increase or decrease volume)", interactive=True)
             with gr.Row():
-                pitch = gr.Slider(-100, 100, step=1, value=0, label="音调 (Pitch)", info="增高或降低音调 (Increse or decrease pitch)", interactive=True)
+                pitch = gr.Slider(-100, 100, step=1, value=0, label="音调 (Pitch)", info="增高或降低音调 (Increase or decrease pitch)", interactive=True)
         
         with gr.Column():
             text = gr.TextArea(label="文本 (Text)", info="请输入文本 (Please input your text)")
