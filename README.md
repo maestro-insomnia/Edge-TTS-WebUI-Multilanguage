@@ -8,7 +8,7 @@
 
 本人菜鸟一枚，如有错误请大佬多多指点。
 
-![](Snipaste.png)
+![](Snipaste.jpeg)
 
 
 ## 普通安装
