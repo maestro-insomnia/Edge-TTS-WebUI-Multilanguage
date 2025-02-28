@@ -8,7 +8,7 @@
 
 I am a beginner, so if there are any mistakes, please kindly point them out.
 
-![](Snipaste.png)
+![](Snipaste.jpeg)
 
 
 ## Standard Installation
