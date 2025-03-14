@@ -2,12 +2,12 @@
 FROM python:3.11.11-slim-bullseye
 
 # 2. 设置工作目录
-WORKDIR /app/Edge-TTS-Webui-Multilanguage
+WORKDIR /app/Edge-TTS-WebUI-Multilanguage
 
 # 3. 从 GitHub 下载代码
 RUN apt-get update && \
     apt-get install -y --no-install-recommends git ca-certificates && \
-    git clone --depth=1 https://github.com/maestro-insomnia/Edge-TTS-Webui-Multilanguage.git . && \
+    git clone --depth=1 https://github.com/maestro-insomnia/Edge-TTS-WebUI-Multilanguage.git . && \
     rm -rf .git && \
     apt-get remove -y git && \
     apt-get autoremove -y && \
