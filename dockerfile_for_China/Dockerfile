@@ -9,8 +9,8 @@ RUN sed -i 's|http://deb.debian.org|http://mirrors.aliyun.com|g' /etc/apt/source
     pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 # 3. 设置工作目录 & 从 GitHub 下载代码
-WORKDIR /app/Edge-TTS-Webui-Multilanguage
-RUN git clone --depth=1 https://github.com/maestro-insomnia/Edge-TTS-Webui-Multilanguage.git . && \
+WORKDIR /app/Edge-TTS-WebUI-Multilanguage
+RUN git clone --depth=1 https://github.com/maestro-insomnia/Edge-TTS-WebUI-Multilanguage.git . && \
     rm -rf .git && \
     apt-get remove -y git && apt-get autoremove -y && apt-get clean
 
