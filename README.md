@@ -1,10 +1,10 @@
 [中文](./README.md) | [EN](./README.en.md)
 
 <div align="center">
-<h1>🍦 Edge-TTS-Webui-Multilanguage</h1>
+<h1>🍦 Edge-TTS-WebUI-Multilanguage</h1>
 </div>
 
-**`Edge-TTS-Webui-Multilanguage`** 是 [edge-tts](https://github.com/rany2/edge-tts)的web图形界面版，支持全球74种语言的文本转语音。采用`Gradio`进行开发，在[edge-tts-webui](https://github.com/ycyy/edge-tts-webui)的基础上修改，新增音调调整，新增[tts-samples](https://github.com/yaph/tts-samples)中所列的所有语言并导入了音色试听样本。
+**`Edge-TTS-WebUI-Multilanguage`** 是 [edge-tts](https://github.com/rany2/edge-tts)的web图形界面版，支持全球74种语言的文本转语音。采用`Gradio`进行开发，在[edge-tts-webui](https://github.com/ycyy/edge-tts-webui)的基础上修改，新增音调调整，新增[tts-samples](https://github.com/yaph/tts-samples)中所列的所有语言并导入了音色试听样本。
 
 本人菜鸟一枚，如有错误请大佬多多指点。
 
